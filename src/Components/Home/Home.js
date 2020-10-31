@@ -21,6 +21,7 @@ const Home = () => {
             <Projects></Projects>
             <Contact></Contact>
             <Footer></Footer>
+            <br/>
         </div>
     );
 };
