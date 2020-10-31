@@ -1,25 +1,64 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import NavBar from './Components/NavBar/NavBar';
+import Home from './Components/Home/Home';
+import Blog from './Components/Blog/Blog';
+import Footer from './Components/Footer/Footer';
+import About from './Components/About/About';
+import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
+import NotFound from './Components/NotFound/NotFound';
+import Fade from 'react-reveal/Fade';
+import Flip from 'react-reveal/Flip';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path='/home'>
+          <NavBar></NavBar>
+          <Home></Home>
+        </Route>
+        <Route path='/about'>
+          <NavBar></NavBar>
+          <br/><br/>
+          <Fade left>
+              <About></About>
+          </Fade>
+          <Footer></Footer>
+        </Route>
+        <Route path='/projects'>
+          <NavBar></NavBar>
+          <br/><br/>
+          <Fade left>
+              <Projects></Projects>
+          </Fade>
+          <Footer></Footer>
+        </Route>
+        <Route path='/blog'>
+          <Blog></Blog>
+        </Route>
+        <Route path='/contact'>
+          <NavBar></NavBar>
+          <br/><br/>
+          <Flip left>
+            <Contact></Contact>
+          </Flip>
+          <Footer></Footer>
+        </Route>
+        <Route exact path='/'>
+          <NavBar></NavBar>
+          <Home></Home>
+        </Route>
+        <Route path='*'>
+          <NotFound></NotFound>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

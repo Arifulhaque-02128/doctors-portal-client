@@ -1,0 +1,9 @@
+.contact-form{
+    margin: 0px 20px 0px 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .contact-form {
+        margin: 0px 250px 0px 250px;
+    }
+}

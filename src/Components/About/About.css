@@ -1,0 +1,13 @@
+.background-img{
+    background-image: url(../../images/carousel-pic/backround1.jpg);
+    background-size: cover;
+}
+.skill-img{
+    width: 50px;
+}
+.jumbotron:hover{
+    box-shadow: 5px 5px 5px 5px gray;
+}
+hr.line{
+    border: 0.7px solid black;
+}
