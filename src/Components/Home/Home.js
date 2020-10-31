@@ -12,7 +12,7 @@ const Home = () => {
         backgroundColor : "thistle"
     }
     return (
-        <div id="home" style={backgroundStyle}>
+        <div style={backgroundStyle}>
             <Header></Header>
             <HeaderMain></HeaderMain>
             <Fade left>
