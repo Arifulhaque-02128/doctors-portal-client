@@ -14,6 +14,7 @@ import Contact from './Components/Contact/Contact';
 import NotFound from './Components/NotFound/NotFound';
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
+import MySkill from './Components/About/MySkill';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <br/><br/>
           <Fade left>
               <About></About>
+              <MySkill></MySkill>
           </Fade>
           <Footer></Footer>
         </Route>

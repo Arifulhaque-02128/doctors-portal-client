@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import profile from '../../images/profile-pic/profile-5.jpg';
 import './About.css';
-import MySkill from './MySkill';
 
 const About = () => {
     return (
@@ -15,7 +14,7 @@ const About = () => {
                         <div className="py-5 pl-4 font-weight-normal">
                             <article>Hi! My name is Ariful Haque. I'm a highly passionate and progress-focused Web developer, love to learn new technologies related to web development. I have a great interest in javaScript and javaScript based technologies. I desire to work in a institution with a good learning environment to grow up my skill higher.</article> <br/>
                             {/* <article>I am a student of Chittagong University of Engineering and Technology, studying in Electronics and Telecommunication Engineering. My hometown is in Moulvibazar. I have passed my SSC from Moulvibazar Govt. High School, Moulvibazar and HSC from Notre Dame College, Dhaka.</article> */}
-                            <article>I love to learn javaScript based projects and technologies. Having expertise in HTML, CSS, Bootstrap, JavaScript, React; Comfortable in Firebase, Heroku, Node.js, MongoDB. And also familiar with Data Structure and Algorithm, Object Oriented Programming, SASS, Redux etc.</article><br />
+                            <article>I love to learn javaScript based projects and technologies. Skilled in HTML, CSS, Bootstrap, JavaScript, React; Comfortable in Firebase, Heroku, Node.js, MongoDB. And also familiar with Data Structure and Algorithm, Object Oriented Programming, SASS, Redux etc.</article><br />
                             <article>Feel free to contact for any other information.</article>
                         </div>
                         <div className="text-center">
@@ -40,9 +39,6 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                <MySkill></MySkill>
             </div>
         </div>
     );
