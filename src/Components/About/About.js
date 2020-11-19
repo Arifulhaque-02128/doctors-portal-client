@@ -24,7 +24,7 @@ const About = () => {
                             <a href="https://github.com/Arifulhaque-02128" target="_blank" rel="noopener noreferrer">
                                 <button type="button" className="btn btn-outline-dark ml-3 my-2">Github</button>
                             </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            <a href="https://drive.google.com/file/d/1tPlzRgg3wupv_GCfn82CpWl7PH864eK-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 <button type="button" className="btn btn-outline-success ml-3 my-2">My Resume</button>
                             </a>
                             <a href="https://www.linkedin.com/in/md-ariful-haque-7b57911b9" target="_blank" rel="noopener noreferrer">
