@@ -6,8 +6,11 @@ import slide2 from "../../../images/carousel-pic/carousel-2.jpg";
 import slide3 from "../../../images/carousel-pic/carousel-3.jpg";
 
 const Header = () => {
+    const headerStyle = {
+        backgroundColor : "white"
+    }
     return (
-        <Carousel controls={false} indicators interval={2500} pause={false}>
+        <Carousel style={headerStyle} controls={false} indicators interval={2500} pause={false}>
             <Carousel.Item>
                 <img className="d-block w-100 carousel-img" src={slide1} alt="Third slide"/>
             </Carousel.Item>

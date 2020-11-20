@@ -5,8 +5,8 @@ import './About.css';
 
 const About = () => {
     return (
-        <div>
-            <div className="container background-img my-5 py-5">
+        <div className="pt-5">
+            <div className="container background-img mb-5 py-5">
                 <h2 className="text-center">Who Am I </h2>
                 <hr className="line mb-5" style={{width: "200px"}} />
                 <div className="row">
