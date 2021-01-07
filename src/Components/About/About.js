@@ -14,7 +14,7 @@ const About = () => {
                         <div className="py-5 pl-4 font-weight-normal">
                             <article>Hi! My name is Ariful Haque. I'm a highly passionate and progress-focused Web developer, love to learn new technologies related to web development. I have a great interest in javaScript and javaScript based technologies. I desire to work in a institution with a good learning environment to grow up my skill higher.</article> <br/>
                             {/* <article>I am a student of Chittagong University of Engineering and Technology, studying in Electronics and Telecommunication Engineering. My hometown is in Moulvibazar. I have passed my SSC from Moulvibazar Govt. High School, Moulvibazar and HSC from Notre Dame College, Dhaka.</article> */}
-                            <article>I love to learn javaScript based projects and technologies. Skilled in HTML, CSS, Bootstrap, JavaScript, React; Comfortable in Firebase, Heroku, Node.js, MongoDB. And also familiar with Data Structure and Algorithm, Object Oriented Programming, SASS, Redux etc.</article><br />
+                            <article>Skilled in HTML, CSS, Bootstrap, JavaScript, React; Comfortable in Firebase, Heroku, Node.js, MongoDB. And also familiar with Data Structure and Algorithm, Object Oriented Programming, SASS, Redux etc.</article><br />
                             <article>Feel free to contact for any other information.</article>
                         </div>
                         <div className="text-center">
@@ -24,7 +24,7 @@ const About = () => {
                             <a href="https://github.com/Arifulhaque-02128" target="_blank" rel="noopener noreferrer">
                                 <button type="button" className="btn btn-outline-dark ml-3 my-2">Github</button>
                             </a>
-                            <a href="https://drive.google.com/file/d/1tPlzRgg3wupv_GCfn82CpWl7PH864eK-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <a href="https://drive.google.com/file/d/1B9nTaNIeTiTdfbY18ZIhVpziZqr-7fHX/view" target="_blank" rel="noopener noreferrer">
                                 <button type="button" className="btn btn-outline-success ml-3 my-2">My Resume</button>
                             </a>
                             <a href="https://www.linkedin.com/in/md-ariful-haque-7b57911b9" target="_blank" rel="noopener noreferrer">
